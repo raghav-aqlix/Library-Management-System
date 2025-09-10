@@ -128,7 +128,7 @@ const BookManagement = () => {
                     {isAuthenticated && user?.role === "Admin" && (
                       <th className="px-4 py-2 text-left">Quantity</th>
                     )}
-                    <th className="px-4 py-2 text-left">Price</th>
+                    <th className="px-4 py-2 text-left">Borrow Price</th>
                     <th className="px-4 py-2 text-left">Availability</th>
                     {isAuthenticated && user?.role === "Admin" && (
                       <th className="px-4 py-2 text-center">Actions</th>
